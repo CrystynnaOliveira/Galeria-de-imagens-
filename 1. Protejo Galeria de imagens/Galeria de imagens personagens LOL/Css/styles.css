@@ -1,0 +1,333 @@
+* { 
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ h1, p { 
+     text-align: center;
+ }
+
+ h1 { 
+     margin-top: 40px;
+     margin-bottom: 20px;
+     color: #d9c73d;
+ }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    width: 200px;
+    margin: 25px;
+    border: solid #d9c73d;
+}  
+
+.card-image { 
+    height: 200px;
+    background-size: cover;
+}
+
+.card-1 .card-image {background-image: url(../Css/img/aatrox.jpg);}
+
+.card-2 .card-image { background-image: url(../Css/img/Aphelios.jpg);}
+
+.card-3 .card-image { background-image: url(../Css/img/Lillia_0.jpg);}
+
+.card-4 .card-image { background-image: url(../Css/img/RiotX_ChampionList_ahri.jpg);}
+
+.card-5 .card-image { background-image: url(../Css/img/RiotX_ChampionList_akali.jpg);}
+
+.card-6 .card-image { background-image: url(../Css/img/RiotX_ChampionList_akshan_v2.jpg);}
+
+.card-7 .card-image { background-image: url(../Css/img/RiotX_ChampionList_alistar.jpg);}
+
+.card-8 .card-image { background-image: url(../Css/img/RiotX_ChampionList_amumu.jpg);}
+
+.card-9 .card-image { background-image: url(../Css/img/RiotX_ChampionList_anivia.jpg);}
+
+.card-10 .card-image { background-image: url(../Css/img/RiotX_ChampionList_annie.jpg);}
+
+.card-11 .card-image { background-image: url(../Css/img/RiotX_ChampionList_aurelionsol.jpg);}
+
+.card-12 .card-image { background-image: url(../Css/img/RiotX_ChampionList_azir.jpg);}
+
+.card-13 .card-image { background-image: url(../Css/img/RiotX_ChampionList_bard.jpg);}
+
+.card-14 .card-image { background-image: url(../Css/img/RiotX_ChampionList_blitzcrank.jpg);}
+
+.card-15 .card-image { background-image: url(../Css/img/RiotX_ChampionList_brand.jpg);}
+
+.card-16 .card-image { background-image: url(../Css/img/RiotX_ChampionList_braum.jpg);}
+
+.card-17 .card-image { background-image: url(../Css/img/RiotX_ChampionList_caitlyn_v2.jpg);}
+
+.card-18 .card-image { background-image: url(../Css/img/RiotX_ChampionList_camille.jpg);}
+
+.card-19 .card-image { background-image: url(../Css/img/RiotX_ChampionList_cassiopeia.jpg);}
+
+.card-20 .card-image { background-image: url(../Css/img/RiotX_ChampionList_chogath.jpg);}
+
+.card-21 .card-image { background-image: url(../Css/img/RiotX_ChampionList_darius.jpg);}
+
+.card-22 .card-image { background-image: url(../Css/img/RiotX_ChampionList_diana.jpg);}
+
+.card-23 .card-image { background-image: url(../Css/img/);}
+
+.card-24 .card-image { background-image: url(../Css/img/RiotX_ChampionList_draven.jpg);}
+
+.card-25 .card-image { background-image: url(../Css/img/RiotX_ChampionList_drmundo_v2.jpg);}
+
+.card-26 .card-image { background-image: url(../Css/img/RiotX_ChampionList_ekko.jpg);}
+
+.card-27 .card-image { background-image: url(../Css/img/RiotX_ChampionList_elise.jpg);}
+
+.card-28 .card-image { background-image: url(../Css/img/RiotX_ChampionList_evelynn.jpg);}
+
+.card-29 .card-image { background-image: url(../Css/img/RiotX_ChampionList_ezreal.jpg);}
+
+.card-30 .card-image { background-image: url(../Css/img/RiotX_ChampionList_fiddlesticks.jpg);}
+
+.card-31 .card-image { background-image: url(../Css/img/RiotX_ChampionList_fiora.jpg);}
+
+.card-32 .card-image { background-image: url(../Css/img/RiotX_ChampionList_galio.jpg);}
+
+.card-33 .card-image { background-image: url(../Css/img/RiotX_ChampionList_gangplank.jpg);}
+
+.card-34 .card-image { background-image: url(../Css/img/RiotX_ChampionList_garen.jpg);}
+
+.card-35 .card-image { background-image: url(../Css/img/RiotX_ChampionList_gnar.jpg);}
+
+.card-36 .card-image { background-image: url(../Css/img/RiotX_ChampionList_gragas.jpg);}
+
+.card-37 .card-image { background-image: url(../Css/img/RiotX_ChampionList_graves-cigar.jpg);}
+
+.card-38 .card-image { background-image: url(../Css/img/RiotX_ChampionList_gwen.jpg);}
+
+.card-40 .card-image { background-image: url(../Css/img/RiotX_ChampionList_hecarim.jpg);}
+
+.card-41 .card-image { background-image: url(../Css/img/RiotX_ChampionList_heimerdinger.jpg);}
+
+.card-42 .card-image { background-image: url(../Css/img/RiotX_ChampionList_ialiyah.jpg);}
+
+.card-43 .card-image { background-image: url(../Css/img/RiotX_ChampionList_irelia.jpg);}
+
+.card-44 .card-image { background-image: url(../Css/img/RiotX_ChampionList_ivern.jpg);}
+
+.card-45 .card-image { background-image: url(../Css/img/RiotX_ChampionList_janna.jpg);}
+
+.card-46 .card-image { background-image: url(../Css/img/RiotX_ChampionList_jarvaniv.jpg);}
+
+.card-46 .card-image { background-image: url(../Css/img/RiotX_ChampionList_jax.jpg);}
+
+.card-47 .card-image { background-image: url(../Css/img/RiotX_ChampionList_jhin.jpg);}
+
+.card-48 .card-image { background-image: url(../Css/img/RiotX_ChampionList_jayce.jpg);}
+
+.card-49 .card-image { background-image: url(../Css/img/RiotX_ChampionList_kaisa.jpg);}
+
+.card-50 .card-image { background-image: url(../Css/img/RiotX_ChampionList_kalista.jpg);}
+
+.card-51 .card-image { background-image: url(../Css/img/RiotX_ChampionList_kassadin.jpg);}
+
+.card-52 .card-image { background-image: url(../Css/img/RiotX_ChampionList_kayle_v4.jpg);}
+
+.card-53 .card-image { background-image: url(../Css/img/RiotX_ChampionList_kayn.jpg);}
+
+.card-54 .card-image { background-image: url(../Css/img/RiotX_ChampionList_kennen.jpg);}
+
+.card-55 .card-image { background-image: url(../Css/img/RiotX_ChampionList_khazix.jpg);}
+
+.card-56 .card-image { background-image: url(../Css/img/RiotX_ChampionList_kindred.jpg);}
+
+.card-57 .card-image { background-image: url(../Css/img/RiotX_ChampionList_kled.jpg);}
+
+.card-58 .card-image { background-image: url(../Css/img/RiotX_ChampionList_kogmaw.jpg);}
+
+.card-59 .card-image { background-image: url(../Css/img/RiotX_ChampionList_leblanc.jpg);}
+
+.card-60 .card-image { background-image: url(../Css/img/RiotX_ChampionList_leona.jpg);}
+
+.card-61 .card-image { background-image: url(../Css/img/RiotX_ChampionList_lissandra.jpg);}
+
+.card-62 .card-image { background-image: url(../Css/img/RiotX_ChampionList_lucian.jpg);}
+
+.card-63 .card-image { background-image: url(../Css/img/RiotX_ChampionList_lulu.jpg);}
+
+.card-64 .card-image { background-image: url(../Css/img/RiotX_ChampionList_lux.jpg);}
+
+.card-65 .card-image { background-image: url(../Css/img/RiotX_ChampionList_malaphite.jpg);}
+
+.card-66 .card-image { background-image: url(../Css/img/RiotX_ChampionList_malzahar.jpg);}
+
+.card-67 .card-image { background-image: url(../Css/img/RiotX_ChampionList_maokai.jpg);}
+
+.card-68 .card-image { background-image: url(../Css/img/RiotX_ChampionList_masteryi.jpg);}
+
+.card-69 .card-image { background-image: url(../Css/img/RiotX_ChampionList_missfortune.jpg);}
+
+.card-70 .card-image { background-image: url(../Css/img/RiotX_ChampionList_mordekaiser_v2.jpg);}
+
+.card-71 .card-image { background-image: url(../Css/img/RiotX_ChampionList_morgana.jpg);}
+
+.card-72 .card-image { background-image: url(../Css/img/RiotX_ChampionList_nasus.jpg);}
+
+.card-73 .card-image { background-image: url(../Css/img/RiotX_ChampionList_nami.jpg);}
+
+.card-74 .card-image { background-image: url(../Css/img/RiotX_ChampionList_nautilus.jpg);}
+
+.card-75 .card-image { background-image: url(../Css/img/RiotX_ChampionList_neeko.jpg);}
+
+.card-76 .card-image { background-image: url(../Css/img/RiotX_ChampionList_nidalee.jpg);}
+
+.card-77 .card-image { background-image: url(../Css/img/RiotX_ChampionList_nocturne.jpg);}
+
+.card-78 .card-image { background-image: url(../Css/img/RiotX_ChampionList_nunu.jpg);}
+
+.card-79 .card-image { background-image: url(../Css/img/RiotX_ChampionList_olaf.jpg);}
+
+.card-80 .card-image { background-image: url(../Css/img/RiotX_ChampionList_rakan.jpg);}
+
+.card-81 .card-image { background-image: url(../Css/img/RiotX_ChampionList_rammus.jpg);}
+
+.card-82 .card-image { background-image: url(../Css/img/RiotX_ChampionList_reksai.jpg);}
+
+.card-82 .card-image { background-image: url(../Css/img/RiotX_ChampionList_Rell_v2.jpg);}
+
+.card-83 .card-image { background-image: url(../Css/img/RiotX_ChampionList_renata_glasc_v5.jpg);}
+
+.card-84 .card-image { background-image: url(../Css/img/RiotX_ChampionList_renekton.jpg);}
+
+.card-85 .card-image { background-image: url(../Css/img/RiotX_ChampionList_rengar.jpg);}
+
+.card-86 .card-image { background-image: url(../Css/img/RiotX_ChampionList_riven.jpg);}
+
+.card-87 .card-image { background-image: url(../Css/img/RiotX_ChampionList_rumble.jpg);}
+
+.card-88 .card-image { background-image: url(../Css/img/RiotX_ChampionList_sejuani.jpg);}
+
+.card-89 .card-image { background-image: url(../Css/img/RiotX_ChampionList_senna.jpg);}
+
+.card-90 .card-image { background-image: url(../Css/img/RiotX_ChampionList_shaco.jpg);}
+
+.card-91 .card-image { background-image: url(../Css/img/RiotX_ChampionList_shen.jpg);}
+
+.card-92 .card-image { background-image: url(../Css/img/RiotX_ChampionList_shyvana.jpg);}
+
+.card-93 .card-image { background-image: url(../Css/img/RiotX_ChampionList_singed.jpg);}
+
+.card-93 .card-image { background-image: url(../Css/img/RiotX_ChampionList_sion.jpg);}
+
+.card-94 .card-image { background-image: url(../Css/img/RiotX_ChampionList_sivir.jpg);}
+
+.card-95 .card-image { background-image: url(../Css/img/RiotX_ChampionList_skarner.jpg);}
+
+.card-96 .card-image { background-image: url(../Css/img/RiotX_ChampionList_sona.jpg);}
+
+.card-97 .card-image { background-image: url(../Css/img/RiotX_ChampionList_swain.jpg);}
+
+.card-98 .card-image { background-image: url(../Css/img/RiotX_ChampionList_sylas.jpg);}
+
+.card-99 .card-image { background-image: url(../Css/img/RiotX_ChampionList_syndra.jpg);}
+
+.card-100 .card-image { background-image: url(../Css/img/RiotX_ChampionList_tahmkench.jpg);}
+
+.card-101 .card-image { background-image: url(../Css/img/RiotX_ChampionList_talon.jpg);}
+
+.card-102 .card-image { background-image: url(../Css/img/RiotX_ChampionList_taric.jpg);}
+
+.card-102 .card-image { background-image: url(../Css/img/RiotX_ChampionList_teemo.jpg);}
+
+.card-103 .card-image { background-image: url(../Css/img/RiotX_ChampionList_thresh.jpg);}
+
+.card-104 .card-image { background-image: url(../Css/img/RiotX_ChampionList_tristana.jpg);}
+
+.card-105 .card-image { background-image: url(../Css/img/RiotX_ChampionList_trundle.jpg);}
+
+.card-106 .card-image { background-image: url(../Css/img/RiotX_ChampionList_twistedfate.jpg);}
+
+.card-107 .card-image { background-image: url(../Css/img/RiotX_ChampionList_twistedfate.jpg);}
+
+.card-108 .card-image { background-image: url(../Css/img/RiotX_ChampionList_twitch.jpg);}
+
+.card-109 .card-image { background-image: url(../Css/img/RiotX_ChampionList_udyr.jpg);}
+
+.card-110 .card-image { background-image: url(../Css/img/RiotX_ChampionList_urgot.jpg);}
+
+.card-111 .card-image { background-image: url(../Css/img/RiotX_ChampionList_varus.jpg);}
+
+.card-112 .card-image { background-image: url(../Css/img/RiotX_ChampionList_vayne.jpg);}
+
+.card-113 .card-image { background-image: url(../Css/img/RiotX_ChampionList_veigar.jpg);}
+
+.card-114 .card-image { background-image: url(../Css/img/RiotX_ChampionList_velkoz.jpg);}
+
+.card-115 .card-image { background-image: url(../Css/img/RiotX_ChampionList_vex.jpg);}
+
+.card-116 .card-image { background-image: url(../Css/img/RiotX_ChampionList_vi.jpg);}
+
+.card-117 .card-image { background-image: url(../Css/img/RiotX_ChampionList_viktor.jpg);}
+
+.card-118 .card-image { background-image: url(../Css/img/RiotX_ChampionList_warwick.jpg);}
+
+.card-119 .card-image { background-image: url(../Css/img/RiotX_ChampionList_xayah.jpg);}
+
+.card-120 .card-image { background-image: url(../Css/img/RiotX_ChampionList_xeratth.jpg);}
+
+.card-121 .card-image { background-image: url(../Css/img/RiotX_ChampionList_xinzhao.jpg);}
+
+.card-122 .card-image { background-image: url(../Css/img/RiotX_ChampionList_yasuo.jpg);}
+
+.card-123 .card-image { background-image: url(../Css/img/RiotX_ChampionList_yorick.jpg);}
+
+.card-124 .card-image { background-image: url(../Css/img/RiotX_ChampionList_yuumi.jpg); }
+
+.card-125 .card-image { background-image: url(../Css/img/RiotX_ChampionList_zac.jpg);}
+
+.card-126 .card-image { background-image: url(../Css/img/RiotX_ChampionList_zed.jpg);}
+
+.card-127 .card-image { background-image: url(../Css/img/RiotX_ChampionList_ziggs.jpg);}
+
+.card-128 .card-image { background-image: url(../Css/img/RiotX_ChampionList_zilean.jpg);}
+
+.card-129 .card-image { background-image: url(../Css/img/RiotX_ChampionList_zoe.jpg);}
+
+.card-130 .card-image { background-image: url(../Css/img/RiotX_ChampionList_zyra.jpg);}
+
+.card-131 .card-image { background-image: url(../Css/img/Samira_0.jpg);}
+
+.card-132 .card-image { background-image: url(../Css/img/Seraphine_0.jpg);}
+
+.card-133 .card-image { background-image: url(../Css/img/Sett_0.jpg);}
+
+.card-134 .card-image { background-image: url(../Css/img/Volibear_0.jpg);}
+
+.card-135 .card-image { background-image: url(../Css/img/Yone_0.jpg);}
+
+
+.btn { 
+    display: block;
+    background-color: #d9c73d;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid transparent;
+    transition: .5s ;
+    border-radius: 5px;
+}
+
+.card-description {
+    padding: 20px 10px;
+}
+
+.btn:hover {
+    background-color: #FFF;
+    color: #d9c73d;
+    border-color: #d9c73d;
+}
+

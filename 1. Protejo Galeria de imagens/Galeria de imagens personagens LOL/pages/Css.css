@@ -1,0 +1,28 @@
+* { 
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ h2, p { 
+     text-align: center;
+     margin-top: 40px;
+     margin-bottom: 20px;
+     display: block;
+     background-color: #888888;
+     color: rgb(255, 255, 255);
+     margin-top: 10px;
+     text-decoration: none;
+     padding: 7px;
+     border: 2px solid transparent;
+     transition: .5s ;
+     border-radius: 5px;
+ }
+ 
+
+ h1 { 
+     margin-top: 20px;
+     margin-bottom: 10px;
+     color: #000000;
+     
+ }
